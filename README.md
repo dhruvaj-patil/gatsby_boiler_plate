@@ -4,34 +4,34 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal TypeScript Starter
+  Dhruvaj's Gatsby Starter Boiler Plate
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Running the Project - Develop mode.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    # Download the zip
+    cd gatsby_boiler_plate
+    npm start
     ```
 
-3.  **Open the code and start customizing!**
+2.  **Libraries used.**
 
-    Your site is now running at http://localhost:8000!
+    We have used the following Libraries:
+    - **Tailwind CSS** - https://tailwindcss.com/
+    - **Headless UI** - https://headlessui.com/react/menu
+    
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+3.  **Plugins Configured**
+
+    Below are the plugins we are using & can be found in `gatsby-config.ts`:
+    - **gatsby-plugin-image** - https://www.gatsbyjs.com/plugins/gatsby-plugin-image/ & https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/
+    - **gatsby-plugin-sitemap** - https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/?=gatsby-plugin-sitemap
+    - **gatsby-plugin-react-helmet** - https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
+    - **gatsby-plugin-manifest** - https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
 
 4.  **Learn more**
 
@@ -47,4 +47,4 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
-# gatsby_boiler_plate
+
